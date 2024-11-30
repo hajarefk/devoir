@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Verbes Irréguliers Anglais</title>
+    <link rel="stylesheet" href="devoir.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav-arrows" id="swapButton">◀ ▶
+        </div>
+        <h1>English: Irregular verbs</h1>
+    </div>
+    <div class="container">
+        <div class="table-container">
+            <table id="verbTable">
+                <thead>
+                    <tr>
+                        <th>Base form</th>
+                        <th>Past tense</th>
+                        <th>Past participle</th>
+                        <th>Translation</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Le tableau sera rempli par JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="sidebar">
+            <div class="search-container">
+                <button id="addVerb">Add a verb</button>
+                <input type="text" id="searchVerb" placeholder="Verb to find">
+                <button onclick="findVerb()">Find</button>
+            </div>
+
+            <div class="letter-links">
+                <h3>Quick Links:</h3>
+                <a href="#a">verbs that start with the letter a</a><br>
+                <a href="#b">verbs that start with the letter b</a><br>
+                <a href="#c">verbs that start with the letter c</a><br>
+                <a href="#d">verbs that start with the letter d</a><br>
+                <a href="#e">verbs that start with the letter e</a><br>
+                <a href="#f">verbs that start with the letter f</a>
+            </div>
+
+            <div class="statistics">
+                <h3>Statistics</h3>
+                <p>5 verbs on average per letter: a→2 b→13 c→11 d→8 e→1 f→5</p>
+            </div>
+        </div>
+    </div>
+    <script src="devoir.js"></script>
+</body>
+</html>
